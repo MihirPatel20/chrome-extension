@@ -1,0 +1,17 @@
+/* Base styles for the theme switcher */
+#yt-music-theme-switcher {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Ensure our theme switcher stays on top */
+#yt-music-theme-switcher button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Reset any YouTube Music styles that might affect our UI */
+#yt-music-theme-switcher * {
+  box-sizing: border-box;
+}
